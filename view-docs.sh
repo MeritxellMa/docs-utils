@@ -2,11 +2,11 @@
 
 pip install Sphinx > /dev/null
 
-sphinx-build -b html source build
+sphinx-build -b html . ../build
 
 make html
 
-xdg-open build/index.html > /dev/null
+xdg-open ../build/index.html > /dev/null
 
 sleep 2 
 
