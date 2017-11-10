@@ -15,7 +15,7 @@ cd "$name"
 
 sphinx-quickstart -q --sep -p "$name" -v 0 -a "$author"
 
-cp ../view-docs.sh .
+cp ../source/view-docs.sh .
 
 sh view-docs.sh
 
