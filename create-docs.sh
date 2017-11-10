@@ -10,10 +10,10 @@ read author
 
 pip install Sphinx > /dev/null
 
-mkdir $name
-cd $name
+mkdir "$name"
+cd "$name"
 
-sphinx-quickstart -q --sep -a $author -p $name -v 0
+sphinx-quickstart -q --sep -p "$name" -v 0 -a "$author"
 
 cp ../view-docs.sh .
 
